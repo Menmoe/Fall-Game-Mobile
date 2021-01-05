@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+html, body {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right:0;
+}
+#game{
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    top: 50px;
+    background-color: rgb(37, 37, 38);
+    border-radius: 10px;
+}
+#character{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    top: 400px;
+    left: 190px;
+    z-index: 1000000;
+}
+.block{
+    width: 400px;
+    height: 20px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
+.hole{
+    width: 40px;
+    height: 20px;
+    background-color:rgb(37, 37, 38);
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
+#score{
+    height: 75px;
+    width: 115px;
+    font-size: 35px;
+    background-color: rgb(37, 37, 38);
+    color: white;
+    margin: auto;
+    position: relative;
+    left: 350px;
+    bottom: 400px;
+    text-align: center;
+    border-radius: 10px;
+}
+.dis{
+    height: 70px;
+    width: 200px;
+    position: relative;
+    margin: auto;
+    visibility: hidden;
+}
+#dis1{
+    bottom: 550px;
+    left: 450px;
+    transform: rotate(-10deg);
+}
+#dis2{
+    bottom: 300px;
+    left: 930px;
+    transform: rotate(-20deg);
+}
+#dis3{
+    bottom: 45px;
+    left: 55px;
+    transform: rotate(-25);
+}
+img{
+    position: relative;
+    margin: auto;
+}
+#pause{
+    width: 50px;
+    height: 50px;
+    left: 246px;
+    bottom: 100px;
+    border-radius: 50%;
+    visibility: hidden;
+}
+#play{
+    width: 50px;
+    height: 50px;
+    left: 300px;
+    bottom: 100px;
+    border-radius: 50%;
+}
+#settings{
+    width: 50px;
+    height: 50px;
+    left: 250px;
+    bottom: 100px;
+    border-radius: 50%;
+}
+#play:hover{cursor: pointer;}
+#pause:hover{cursor: pointer;}
+#settings:hover{cursor: pointer;}
